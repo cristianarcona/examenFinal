@@ -1,12 +1,6 @@
-const button1 = document.querySelector('.button1')
-button1.addEventListener('click', mostrarButton)
+const button1 = document.querySelector('#button1')
+button1.addEventListener('click', mostrarMensaje)
 
-function mostrarButton(){
-    const isAsideClosed = aside.classList.contains('inactive');
-
-    if(!isAsideClosed){
-        aside.classList.add('inactive')
-    }
-
-    mobileMenu.classList.toggle('inactive')
+function mostrarMensaje(){
+    alert("Tenemos Descuentos")
 }
