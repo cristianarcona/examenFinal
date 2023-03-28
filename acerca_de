@@ -4,16 +4,11 @@
 	</head>
 	<body>
 
-<h1>Acerca de </1>
+<marquee><h1>Acerca de </1></marquee>
 
-<form name="formulario" method="post" action="/send.php">
-  <!-- Datos del formulario -->
-  Usuario: <input type="text" name="usuario" />
-  <!-- Victor Perez -->
-  <input type="submit" value="Enviar formulario" />
-</form>
+<button style="background-color:red; border-color:blue; color:white">Victor Perez</button>
 
-<button>Victor Perez</button>
+
 
 
 	</body>
