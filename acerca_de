@@ -6,6 +6,13 @@
 
 <h1>Acerca de </1>
 
+<form name="formulario" method="post" action="/send.php">
+  <!-- Datos del formulario -->
+  Usuario: <input type="text" name="usuario" />
+  <!-- Victor Perez -->
+  <input type="submit" value="Enviar formulario" />
+</form>
+
 <button>Victor Perez</button>
 
 
